@@ -26,7 +26,7 @@ task copyPlugin(type: Copy) {
 
     doFirst { println 'copying built plugin ...' }
 
-    from 'build/libs/M87-1.0-all.jar'
+    from 'build/libs/ExamplePlugin-1.0.jar'
     into testServer + '/plugins'
 
     doLast { println 'copied built plugin!' }
