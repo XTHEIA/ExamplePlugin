@@ -1,0 +1,4 @@
+name: ExamplePlugin
+version: '${version}'
+main: io.github.xtheia.exampleplugin.ExamplePlugin
+api-version: 1.19
